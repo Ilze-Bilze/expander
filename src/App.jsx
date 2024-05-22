@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import json from '../data.json'
+import Footer from './components/Footer'
+import Header from './components/Header/Header'
+import ContactSection from './components/Contact'
+import About from './components/About'
+import VideoPlayer from './components/VideoPlayer'
+import Testimonials from './components/Testimonials/Testimonials'
+import Shop from './components/Shop'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      {/* Video section */}  
+      <VideoPlayer id={json.contact.id} />
+      {/* Shop section */}  
+      <Shop id={json.about.id} title={json.about.title} />
+      {/* About section */}            
+      <About id={json.about.id} title={json.about.title} image={json.about.image} background={json.about.image} />
+      {/* Testimonials section */}  
+      <Testimonials id={json.about.id} title={json.about.title} image={json.about.image} /> 
+      {/* Contact section */}  
+      <ContactSection title={json.contact.title} text={json.contact.text} id={json.contact.id} background={json.contact.image} />
+      <Footer />
     </>
   )
 }

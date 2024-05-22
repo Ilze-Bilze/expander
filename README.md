@@ -18,4 +18,5 @@ To start your project run:
 $ npm run dev
 
 To install Tailwind: 
+$ npx tailwindcss init -p
 https://medium.com/@shivaydv/a-step-by-step-guide-to-installing-tailwind-css-with-react-b06d71a50354

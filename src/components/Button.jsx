@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 export default function Button(props) {
   const { label, color, padding, maxWidth, minWidth, onClick, backgroundColor } = props
 
-  const [background, setColor] = useState()
+  const [setColor, setIsVisible] = useState(false)
   
   return (
     <button 

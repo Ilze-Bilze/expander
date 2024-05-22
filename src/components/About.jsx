@@ -4,7 +4,7 @@ import json from '/data.json'
 import Paragraphs from './Paragraphs'
 
 function About(props) {
-  const { title, image, id } = props
+  const { title, image, id, background } = props
   const titleRef = useRef()
 
   useEffect(() => {
@@ -16,20 +16,17 @@ function About(props) {
   }, [])
 
   return (
-    <section className="relative w-screen" id={id}>
-      <div className="container flex flex-col md:flex-row justify-between gap-x-14 lg:py-[72px] py-16">
-      {/* Image */}
-        <div className="relative flex xl:items-center items-start w-full md:w-[36%] mb-10">
-          <img className="w-full" src={image} width="200" height="200" alt="Ilze Spruge" />
-        </div>
+    <section className="relative w-full" id={id}>
+      <div className="container flex gap-x-14 lg:py-[72px] py-16 justify-end text-white" style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       {/* Text paragraphs */}
-        <div className="flex flex-col relative w-full md:w-[64%]">
+        <div className="flex flex-col relative w-full md:w-[65%]">
           <h2 className="md:mb-10 mb-6" ref={titleRef}>
             {title}
           </h2>
           {json.about.text.map((element, key) => (
             <Paragraphs text={element.para} key={key} />
           ))}
+          <button className='border'>Read more</button>
         </div>
       </div>
     </section>
@@ -39,7 +36,8 @@ function About(props) {
 About.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired
+  id: PropTypes.string.isRequired,
+  background: PropTypes.string.isRequired
 }
 
 export default About
