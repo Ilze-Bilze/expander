@@ -10,9 +10,8 @@ module.exports = {
         current: 'currentColor',
         'black': '#000000',
         'white': '#ffffff',
-        'main': '#C2D6C1',
-        'main-lighter': '#EBF2EA',
-        'main-darker': '#B4D3B3',
+        'primary': '#F37321',
+        'secondary': '#5B5600',
       },
       container: {
         center: true,

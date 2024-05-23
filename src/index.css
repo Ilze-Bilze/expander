@@ -53,11 +53,11 @@ h3,
   letter-spacing: -0.05em;
 }
 
-.green-words {
-  color: #C2D6C1;
+.words {
+  color: #F37321;
 }
 
-.react-multi-carousel-list {
+#shop .react-multi-carousel-list {
   padding: 40px 30px;
 }
 
@@ -70,13 +70,8 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 0px solid #C2D6C1;
-  border-bottom: 1px solid #C2D6C1;
+  border: 1px solid #C2D6C1;
   -webkit-text-fill-color: #000000;
   -webkit-box-shadow: 0 0 0px 1000px #EBF2EA inset;
   transition: background-color 5000s ease-in-out 0s;
-}
-
-input[type="checkbox"]:checked + label {
-  background-color: #B4D3B3;
 }

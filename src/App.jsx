@@ -15,7 +15,7 @@ function App() {
       {/* Video section */}  
       <VideoPlayer id={json.contact.id} />
       {/* Shop section */}  
-      <Shop id={json.about.id} title={json.about.title} />
+      <Shop id={json.shop.id} title={json.shop.title} />
       {/* About section */}            
       <About id={json.about.id} title={json.about.title} image={json.about.image} background={json.about.image} />
       {/* Testimonials section */}  

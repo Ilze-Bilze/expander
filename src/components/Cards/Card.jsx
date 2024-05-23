@@ -30,7 +30,7 @@ function Card(props) {
               <></>
             )}
             { showSale === true ? (
-              <span className='border bg-main rounded-3xl px-5 py-1 text-sm text-white'>Sale</span>
+              <span className='border bg-primary rounded-3xl px-5 py-1 text-sm text-white'>Sale</span>
             ) : (
               <></>
             )}

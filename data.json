@@ -13,28 +13,19 @@
       "link": "/#contact"
     }
   ],
-  "intro": {
-    "title": "I'm a web developer with passion to create great experiences",
-    "id": "intro",
-    "text": [
-      {
-        "para": "Hello, my name is Ilze. Based in the vibrant landscape of London, I am a friendly and passionate designer and web developer with over 10 years of valuable commercial experience. Crafting elegant and visually stunning websites is not just my profession, it's my true calling, and I couldn't love it more!"
-      }
-    ]
-  },
   "about": {
     "title": "Mini Logo™ Deck Construction",
     "image": "/banner.png",
     "text": [
       {
-        "para": "Hand made using only the finest materials, Mini Logo™ is the leader of high performance/price point decks in the Industry. Each deck is fused in Skate One’s special low stress, AirLam™ presses, with water resistant, high strength glue and sealed against moisture with a lacquer semi-gloss finish."
+        "para": "Hand made using only the finest materials, Mini Logo™ is the leader of high performance/price point decks in the Industry. Each deck is fused in Skate One's special low stress, AirLam™ presses, with water resistant, high strength glue and sealed against moisture with a lacquer semi-gloss finish."
       }
     ],
     "id": "about"
   },
-  "work": {
-    "title": "Discover my latest work",
-    "id": "work",
+  "shop": {
+    "title": "Mini Logo™ Decks",
+    "id": "shop",
     "content": [
       {
         "title": "Sumpro Sports Agency",

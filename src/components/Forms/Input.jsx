@@ -5,7 +5,7 @@ function Input(props) {
   const { name, type, id } = props
   return (
     <>
-      <input id={id} type={type} name={name} className="w-full border bg-transparent border-x-0 border-t-0 border-[#C2D6C1] border-b-1 pb-1.5 px-4 pt-1.5 hover:bg-main-lighter active:bg-main-lighter focus:outline-none focus:ring-1 focus:ring-main transition-all" />
+      <input required placeholder={name} id={id} type={type} name={name} className="relative w-full bg-white/[.50] rounded-xl py-3.5 px-4 hover:bg-primary-lighter active:bg-primary-lighter focus:outline-none focus:ring-1 focus:ring-primary transition-all placeholder:text-black" />
     </>
   )
 }

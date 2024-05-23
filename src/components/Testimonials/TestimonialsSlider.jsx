@@ -24,7 +24,7 @@ function TestimonialsSlider() {
   }
 
   return (
-    <Carousel responsive={responsive}>
+    <Carousel responsive={responsive} className='relative md:left-[-110px]'>
       <Testimonial />
       <Testimonial />
     </Carousel>
