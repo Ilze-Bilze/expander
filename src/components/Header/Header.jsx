@@ -37,17 +37,17 @@ function Header() {
 
   return (
     <>
-      <header className="w-screen top-0 bg-black" style={{ zIndex: "999", padding: scroll ? "10px 0 10px 0" : "20px 0 20px 0", position: scroll ? "fixed" : "absolute" }}>
+      <header className="w-screen top-0 bg-black" style={{ zIndex: "9999", padding: scroll ? "10px 0 10px 0" : "20px 0 20px 0", position: scroll ? "fixed" : "absolute" }}>
         <div className="relative flex flex-row justify-between item-center container">
           {/* Logo */}
-          <a className="text-[22px] font-bold text-black hover:text-primary" href="/">
-          <span className="green-words">Expander</span></a>
+          <a className="text-[22px] font-bold text-primary hover:text-primary" href="/">
+          <span>Expander</span></a>
           <div className="relative flex flex-row justify-between gap-x-5" id="container-nav">
             <button 
             size="sm"
             aria-label="open menu"
             aria-expanded={open === true ? "true" : "false"}
-            className={open === true ? "active py-2.5 px-[32px] hover:bg-primary border-[#C2D6C1] border-b-1 rounded-full border" : "py-2.5 px-[32px] hover:bg-primary-lighter border-[#C2D6C1] border-b-1 rounded-full border"}
+            className={open === true ? "active py-2.5 px-[32px] bg-primary hover:bg-primary rounded-full" : "py-2.5 px-[32px] hover:bg-primary bg-white rounded-full"}
             onClick={ () => setOpen(!open) }
             ><FaBars size="24" /></button>
           </div>

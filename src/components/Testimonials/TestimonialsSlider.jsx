@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import Testimonial from './Testimonial'
+import json from '../../../data.json'
 
 function TestimonialsSlider() {
   const responsive = {
@@ -25,8 +26,9 @@ function TestimonialsSlider() {
 
   return (
     <Carousel responsive={responsive} className='relative md:left-[-110px]'>
-      <Testimonial />
-      <Testimonial />
+      {json.testimonials.text.map((element, key) => (
+        <Testimonial author={element.author} text={element.para} key={key} />
+      ))}
     </Carousel>
   )
 }

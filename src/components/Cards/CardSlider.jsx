@@ -1,6 +1,7 @@
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import Card from "./Card"
+import json from '../../../data.json'
 
 function CardSlider() {
   const responsive = {
@@ -24,13 +25,10 @@ function CardSlider() {
   }
 
   return (
-    <Carousel responsive={responsive}>
-      <Card sold="true" sale="false" />
-      <Card sold="false" sale="false" />
-      <Card sold="false" sale="true" />
-      <Card sold="false" sale="false" />
-      <Card sold="false" sale="false" />
-      <Card sold="false" sale="false" />
+    <Carousel responsive={responsive} className='relative top-[40px] bottom-[72px]'>
+      {json.shop.content.map((element, key) => (
+        <Card sold="true" sale="false" text={element.text} image={element.image} alt={element.alt} key={key} url={element.url} />
+      ))}
     </Carousel>
   )
 }

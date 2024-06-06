@@ -1,15 +1,19 @@
 {
   "menu": [
     {
-      "title": "About me",
+      "title": "Shop",
+      "link": "/#shop"
+    },
+    {
+      "title": "About Us",
       "link": "/#about"
     },
     {
-      "title": "Work",
-      "link": "/#work"
+      "title": "Testimonials",
+      "link": "/#testimonials"
     },
     {
-      "title": "Contact me",
+      "title": "Contact Us",
       "link": "/#contact"
     }
   ],
@@ -23,27 +27,60 @@
     ],
     "id": "about"
   },
+  "testimonials": {
+    "title": "We're excited to hear your thoughts and opinions!",
+    "image": "/testimonials-img.png",
+    "text": [
+      {
+        "para": "Been skating for almost 17 years now and without a doubt these mini logo boards are the best !!!! And then the price too like dude you can not beat it, they stand up to anything for any type of skater definitely the best thing on the market.",
+        "author": "Spencer Perry"
+      },
+      {
+        "para": "Skating for almost 17 years now and without a doubt these mini logo boards are the best !!!! And then the price too like dude you can not beat it, they stand up to anything for any type of skater definitely the best thing on the market.",
+        "author": "John Smith"
+      }
+    ],
+    "id": "testimonials"
+  },
   "shop": {
     "title": "Mini Logo™ Decks",
     "id": "shop",
     "content": [
       {
-        "title": "Sumpro Sports Agency",
-        "image": "/mobile/sumpro-04.jpg",
-        "alt": "Sumpro Global Agency website",
-        "url": "/sumpro-project"
+        "image": "/shop/skateboard-02.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-242-k20-yellow-8-0-x-31-45",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
       },
       {
-        "title": "Playground Project",
-        "image": "/tablet/playground-01.jpg",
-        "alt": "Playground Project website image",
-        "url": "/playground-project"
+        "image": "/shop/skateboard-03.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-191-k16-solid-black-7-5-x-28-65-mini",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
       },
       {
-        "title": "The Story of Ilze-Bilze",
-        "image": "/laptop/blog-02.jpg",
-        "alt": "Story of Ilze-Bilze blog",
-        "url": "/travel-blog-project"
+        "image": "/shop/skateboard-01.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-191-k16-solid-white-7-5-x-28-65-mini",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
+      },
+      {
+        "image": "/shop/skateboard-04.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-291-k20-natural-7-75-x-31-08",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
+      },
+      {
+        "image": "/shop/skateboard-02.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-242-k20-yellow-8-0-x-31-45",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
+      },
+      {
+        "image": "/shop/skateboard-03.png",
+        "alt": "Mini Logo Deck",
+        "url": "https://minilogoskateboards.com/mini-logo-detonator-15-skateboard-deck-191-k16-solid-black-7-5-x-28-65-mini",
+        "text": "Mini Logo Birch Skateboard Assembly Pattern Grate 291 K20 - 7.75"
       }
     ]
   },
@@ -52,88 +89,5 @@
     "text": "Join the party and sign up for our awesome newsletters!",
     "id": "contact",
     "image": "/newsletter-bg.png"
-  },
-  "footer": {
-    "title": "LET'S MAKE SOMETHING AWESOME TOGETHER.",
-    "text": "ilzespruge @gmail.com",
-    "copyrights": "© 2024 Ilze Spruge - All rights reserved."
-  },
-  "socialLinks": [
-    {
-      "title": "LInkedIn",
-      "link": "https://www.linkedin.com/in/ilze-spruge-450b6b12/"
-    }
-  ],
-  "sumpro": [
-    {
-      "title": "Sumpro Global Sports Agency",
-      "text": "The website places a strong emphasis on enhancing user experience by maintaining a simple and easily navigable design, while also ensuring quick loading times. The showcasing feature serves as an impactful introduction to highlight the unique qualities of Sumpro's Sports Agency. Additionally, all services are made accessible in eight different languages to cater to a diverse audience. Furthermore, a straightforward contact form has been included for effortless communication with users.",
-      "link": "https://sumproagency.com/",
-      "label": "Visit the website for further information",
-      "image": "/laptop/sumpro-01.jpg",
-      "id": "sumpro",
-      "imagegrid": [
-        {
-          "image": "/mobile/sumpro-04.jpg",
-          "alt": "Sumpro Global Agency website"
-        },
-        {
-          "image": "/tablet/sumpro-03.jpg",
-          "alt": "Sumpro Global Agency website"
-        },
-        {
-          "image": "/laptop/sumpro-02.jpg",
-          "alt": "Sumpro Global Agency website"
-        }
-      ]
-    }
-  ],
-  "travelBlog": [
-    {
-      "title": "The Story of Ilze-Bilze",
-      "text": "This travel blog is a delightful and amusing platform that highlights stunning hero pictures captured from various destinations worldwide. The website features a user-friendly design with a touch of colorful elements, making it easy to navigate. Visitors can browse through the latest blogposts, learn more about the author, and use the contact form to get in touch. The overall layout is simple yet fun, mirroring the personality of the author. Users will find it effortless to navigate the site and read through all the blog posts.",
-      "link": "https://ilzebilze-blog.netlify.app",
-      "label": "Take a moment to peruse the blog",
-      "image": "/laptop/blog-03.jpg",
-      "id": "blog",
-      "imagegrid": [
-        {
-          "image": "/mobile/blog-01.jpg",
-          "alt": "The Story of Ilze-Bilze website"
-        },
-        {
-          "image": "/tablet/blog-05.jpg",
-          "alt": "The Story of Ilze-Bilze website"
-        },
-        {
-          "image": "/laptop/blog-04.jpg",
-          "alt": "The Story of Ilze-Bilze website"
-        }
-      ]
-    }
-  ],
-  "playground": [
-    {
-      "title": "Playground Project",
-      "text": "The Playground project serves as a platform for displaying the exciting capabilities of Javascript and React through a collection of interactive games. This project exudes charm and whimsy with its vibrant colors and hand-drawn elements. The site is designed for easy navigation, providing seamless access to a variety of games. For optimal performance, we recommend accessing the site using a computer and Chrome browser. Some games require the use of a computer keyboard, while others utilize microphone and audio features on your device.",
-      "link": "https://playground-project.netlify.app",
-      "label": "Explore the variety of games available",
-      "image": "/tablet/playground-02.jpg",
-      "id": "playground",
-      "imagegrid": [
-        {
-          "image": "/tablet/playground-03.jpg",
-          "alt": "Image of Playground Project website"
-        },
-        {
-          "image": "/tablet/playground-01.jpg",
-          "alt": "Image of Playground Project website"
-        },
-        {
-          "image": "/laptop/playground-04.jpg",
-          "alt": "Image of Playground Project website"
-        }
-      ]
-    }
-  ]
+  }
 }
